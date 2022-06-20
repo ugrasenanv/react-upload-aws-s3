@@ -1,0 +1,71 @@
+{
+  "name": "react-upload-aws-s3",
+  "version": "0.1.0",
+  "private": true,
+    "author": "Ugrasenan V",
+    "main": "dist/react-upload-aws-s3.js",
+    "module": "dist/react-upload-aws-s3.m.js",
+    "source": "src/react-upload-aws-s3.ts",
+    "umd:main": "dist/react-upload-aws-s3.umd.js",
+    "unpkg": "dist/react-upload-aws-s3.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "short-uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "microbundle": "^0.9.0"
+  
+  },
+  "scripts": {
+    "build": "microbundle",
+    "clean": "rm -rf dist",
+    "dev": "microbundle --ts watch",
+    "tslint": "tslint -c tslint.json 'src/**/*.ts'",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "files": [
+    "cjs",
+    "esm",
+    "umd"
+  ],
+  "keywords": [
+    "react-component",
+    "react",
+    "s3",
+    "upload",
+    "vanillajs",
+    "vue-aws3",
+    "vuejs",
+    "typescript",
+    "angular-upload-aws3",
+    "angular",
+    "aws",
+    "file-upload",
+    "file",
+    "react-upload-aws-s3"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
